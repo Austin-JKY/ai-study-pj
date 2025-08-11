@@ -1,5 +1,5 @@
-import React from 'react'
-import Header from './_components/Header';
+import React from "react";
+import Header from "./_components/Header";
 
 function Provider({
   children,
@@ -8,10 +8,10 @@ function Provider({
 }>) {
   return (
     <div>
-        <Header />
+      <Header />
       {children}
     </div>
-  )
+  );
 }
 
-export default Provider
+export default Provider;
